@@ -3,7 +3,7 @@
 
    Functions:
        load_movie() - downloads the movie data from The Movie Database,
-           makes instance of media.Movie() class and appends it to the input list.
+           makes instance of media.Movie() class.
        make_trailer_url() - generates the movie trailer url.
 """
 
@@ -18,7 +18,7 @@ API_BASE_URL = "https://api.themoviedb.org/3/"
 
 def load_movie(title):
     """Download movie data from The Movie Database,
-       make instance of media.Movie() class and append it to input list"""
+       make instance of media.Movie() class."""
     try:
         query = urllib.urlencode([
             ("api_key", "fc151f187839bb33c12a7985f58a8194"),
