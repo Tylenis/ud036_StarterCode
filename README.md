@@ -12,7 +12,7 @@ download from https://github.com/Tylenis/ud036_StarterCode/archive/master.zip
 or clone from https://github.com/Tylenis/ud036_StarterCode.git
 
 ## Usage
-Create (delete) media.Movie() class instances in entertainment_center.py file.
+Create (delete) media.Movie() class instances in **entertainment_center.py** file.
 ```
 WALL_E = media.Movie("WALL-E", "https://images-na.ssl-images-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg", "https://www.youtube.com/watch?v=alIq_wG9FNk")
 ```
@@ -27,10 +27,10 @@ Run file.
 python entertainment_center.py
 ```
 ### or
-Get TMDB API key
-Edit load_from_themoviedb.py file
-Replace "YOUR_THE_MOVIE_DATABASE_API_KEY" with your API key in the load_from_themoviedb.py file.
-Run entertainment_center.py file with movie titles.
+Get TMDB API key.
+Edit **load_from_themoviedb.py** file
+Replace "YOUR_THE_MOVIE_DATABASE_API_KEY" with your API key in the **load_from_themoviedb.py** file.
+Run **entertainment_center.py** file with movie titles.
 ```
 python entertainment_center.py "Title1" "Title2" "Title3"
 
