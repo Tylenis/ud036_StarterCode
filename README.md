@@ -1,6 +1,9 @@
 # Movie Trailer Website
 generates a html file  which contains links to movies trailers on youtube and opens it in the browser.
 
+##Note
+This product uses the TMDb API but is not endorsed or certified by TMDb.
+
 ## Requirements:
 Python 2.7
 
