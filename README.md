@@ -12,11 +12,11 @@ Open Command-Line Shell and clone repo:
 ```
 git clone https://github.com/Tylenis/ud036_StarterCode.git
 ```
-Navigate to ud036_StarterCode folder:
+Navigate to **ud036_StarterCode** folder:
 ```
 cd ud036_StarterCode
 ```
-Run entertainment_center.py file
+Run **entertainment_center.py** file
 ```
 python entertainment_center.py
 ```
