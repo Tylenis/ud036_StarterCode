@@ -26,4 +26,12 @@ Run file.
 ```
 python entertainment_center.py
 ```
+### or
+Get TMDB API key
+Edit load_from_themoviedb.py file
+Replace "YOUR_THE_MOVIE_DATABASE_API_KEY" with your API key in the load_from_themoviedb.py file.
+Run entertainment_center.py file with movie titles.
+```
+python entertainment_center.py "Title1" "Title2" "Title3"
+
 
