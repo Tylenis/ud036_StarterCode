@@ -16,7 +16,7 @@ Navigate to **ud036_StarterCode** folder:
 ```
 cd ud036_StarterCode
 ```
-Run **entertainment_center.py** file
+Run **entertainment_center.py** file with following command:
 ```
 python entertainment_center.py
 ```
