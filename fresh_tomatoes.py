@@ -1,3 +1,9 @@
+"""Module generates the html file and serves it to the browser.
+
+   Functions:
+      create_movie_tiles_content() - generates the content section of the html file.
+      open_movies_page() - generates and opens the html file in the browser.
+"""
 import webbrowser
 import os
 import re
@@ -130,7 +136,7 @@ movie_tile_content = '''
 
 
 def create_movie_tiles_content(movies):
-    # The HTML content for this section of the page
+    """The HTML content for this section of the page"""
     content = ''
     for movie in movies:
         # Extract the youtube ID from the url
@@ -151,7 +157,7 @@ def create_movie_tiles_content(movies):
 
 
 def open_movies_page(movies):
-    # Create or overwrite the output file
+    """Create or overwrite the output file"""
     output_file = open('fresh_tomatoes.html', 'w')
 
     # Replace the movie tiles placeholder generated content
